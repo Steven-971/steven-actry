@@ -1,0 +1,36 @@
+<html>
+    <title> S'identifier </title>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="../form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <body>
+           <div class="formulaire">
+                <form action="">
+                    <h1>CONNEXION</h1>
+                    <div class="dialogue">
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                    
+
+                        <i class='bx bxs-user'> </i>
+                    </div>
+
+                    <div class="dialogue">
+                        <input type="password" placeholder="Mot de passe" required>
+                        
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+
+                    <div class="mdpoublier">
+                        <label> <input type="checkbox"> Se souvenir de moi</label>
+                        <a class="mdp" href="mdp.html">Mot de passe oublié ? </a>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn" onclick="mdp();"> Se Connecter </button>
+
+                    <div class="cree">
+                        <p> Vous n'avez pas de compte ? <a class="compte" href="compte.html"> Crée un compte </a></p>
+                    </div>
+                </form>
+            </div>
+        </body>
+</html>

@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img {
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url('croisiere\ Guadeloupe.avif');
+    width: 100%;
+    background: transparent;
+    filter: blur(2px);
+}
+body { 
+    font-family: Arial, sans-serif; 
+}
+.container h1 {
+    position: absolute;
+    top: 20px; /* Ajuste la position verticale du titre par rapport à l'image */
+    left: 10%; /* Pour centrer le titre horizontalement */
+    transform: translateX(-50%); /* Pour centrer le titre horizontalement */
+    color: white; /* Couleur du texte du titre */
+    background-color: #80ceff; /* Fond du titre */
+    padding: 10px; /* Espace autour du titre */
+}
+.container p {
+    position: absolute;
+    top: 180px;
+    bottom: 20px; /* Ajuste la position verticale du texte par rapport à l'image */
+    left: 20px; /* Ajuste la position horizontale du texte par rapport à l'image */
+    color: white; /* Couleur du texte */
+    padding: 10px; /* Espace autour du texte */
+    font-size: 50px;/* Permet d'ajuster la taille du texte */
+  }
+  .carre-blanc {
+    width: 25%;
+    height: 270px; /* Permet de spécifier la hauteur d'un élément */
+    border: 2px solid white;
+    background-color: white;
+    background-size: cover; /* Permet de définir la taille de l'image d'arrière plan */
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box; /* Permet de définir la hauteur et la largeur d'un élément */
+    text-align: center;
+    position: relative;
+    top: -620px;
+    bottom: 20px; /* Ajuste la position verticale du texte par rapport à l'image */
+    left: 750px; /* Ajuste la position horizontale du texte par rapport à l'image */
+    color: black; /* Couleur du texte */
+}
+input[type="submit"]{
+    background-color: #51a1cc;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    font-size: 15px; /* Permet de définir la taille de la police */
+    font-weight: 700; /* Permet de définir l'épaisseur de la police */
+    color: white;
+    margin-top: 1em; /* Permet de définir l'espace vertical de la marge*/
+    cursor: pointer;
+}

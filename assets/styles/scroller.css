@@ -1,0 +1,9 @@
+.tag-list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tag-list-item-text {
+    font-size: 24px;
+}

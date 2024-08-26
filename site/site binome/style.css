@@ -1,0 +1,88 @@
+
+/*-------PAGE D'ACCUEIL------*/
+
+  /* -------------------NAV BAR PREDIPE----------------*/
+
+.logo{
+    top: 30px;
+    width: 11%;
+    height: auto;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -6cm;
+    display: block;
+}
+
+.loupe{
+  width: 4%;
+  float: right;
+  margin-right: 10%;
+}
+
+/*NAV BAR*/
+
+.Accueil{
+  color: white;
+}
+
+.Offres{
+  color: white;
+  width: 22cm;
+}
+
+.propos{
+  color: white;
+}
+
+.identifier{
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: -12;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004AAD
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 100px;
+  }   
+
+  /*--------------OFFRES STEVEN---------------*/
+
+.cruise-container {
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.cruise-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.cruise-image {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cruise-description {
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 210px;
+    border: 2px solid #80c0ff;
+    box-sizing: border-box;
+    text-align: justify;
+}
