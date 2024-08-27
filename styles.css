@@ -234,7 +234,8 @@ footer {
 .footer-social {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
+  margin-top: 12px;
 }
 .footer-bottom {
   width: 100%;
@@ -242,7 +243,30 @@ footer {
   padding: 10px 0;
   border-top: 1px solid #ffffff;
   margin-top: 20px;
+} 
+
+.footer-social-link-mail:hover {
+  text-decoration: underline;
+  color: #FFF;
 }
+
+.footer-social-link-linkedin:hover {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+
+.footer-social-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-social-link a{
+  color: #FFF;
+  text-decoration: none;
+}
+
 
 .tag-list {
   margin: 0;
@@ -319,7 +343,7 @@ footer {
 /*form*/
 .wrapper-form{
   width: 715px;
-  background: #fff;
+  background: #f9f9f9;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
   padding: 12px;
@@ -330,10 +354,10 @@ footer {
   padding: 20px 30px;
   border-bottom: 1px solid #ccc;
 }
-.wrapper-form-form form{
+.wrapper-form form{
   margin: 35px 30px;
 }
-.wrapper-form-form form.disabled{
+.wrapper-form form.disabled{
   pointer-events: none;
   opacity: 0.7;
 }
@@ -348,7 +372,7 @@ form .dbl-field{
   position: relative;
   width: calc(100% / 2 - 13px);
 }
-.wrapper-form-form form i{
+.wrapper-form form i{
   position: absolute;
   top: 50%;
   left: 18px;

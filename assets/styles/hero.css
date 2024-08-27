@@ -59,6 +59,11 @@ nav ul li a {
   border-radius: 5px;
 }
 
+h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
 strong {
   color: #08a4d4;
 }
